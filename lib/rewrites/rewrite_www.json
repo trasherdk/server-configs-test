@@ -1,0 +1,12 @@
+[
+  {
+    "name": "www",
+    "default": {
+      "statusCode": 301,
+      "responseHeaders": {
+        "Location": "http://www.www-server.localhost/"
+      }
+    },
+    "requests": ["http://www-server.localhost/"]
+  }
+]
